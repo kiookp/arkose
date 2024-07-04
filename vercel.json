@@ -3,9 +3,9 @@
   "builds": [
     {
       "src": "app.py",
-      "use": "@vercel/python"
+      "use": "@vercel/python",
       "config": {
-      "maxDuration": 60
+        "maxDuration": 60
       }
     }
   ],
@@ -14,10 +14,5 @@
       "src": "/(.*)",
       "dest": "app.py"
     }
-  ],
-  "build": {
-    "config": {
-      "maxDuration": 60
-    }
-  }
+  ]
 }
