@@ -11,5 +11,10 @@
       "src": "/(.*)",
       "dest": "app.py"
     }
-  ]
+  ],
+  "build": {
+    "config": {
+      "maxDuration": 60
+    }
+  }
 }
